@@ -1,6 +1,6 @@
 # Carousel.js
 Carousel.js is a simple Javascript library that creates a fully customizable carousel.<br>
-Comming in at only 3kb it has great performance and is easy to use.
+Comming in at only 4kb it has great performance and is easy to use.
 
 ## Documentation
 
