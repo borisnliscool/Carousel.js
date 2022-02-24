@@ -1,0 +1,49 @@
+.carousel {
+    width: 50vw;
+    padding: 25px 25px;
+    border-radius: 15px;
+}
+
+.carousel-active {
+    display: block;
+}
+
+.carousel-inactive {
+    display: none;
+}
+
+.carousel-inner img {
+    width: 50vw;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.carousel-buttons {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-buttons button {
+    padding: 15px 20px;
+    border-radius: 5px;
+    min-width: 100px;
+    background-color: white;
+    color: #D22B2B;
+    outline: none;
+    border: 1px solid #D22B2B;
+    cursor: pointer;
+    transition: background-color 200ms, color 200ms;
+}
+
+.carousel-buttons button:hover {
+    background-color: #D22B2B;
+    color: white;
+}
+
+.carousel-next {}
+
+.carousel-previous {}
