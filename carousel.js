@@ -41,7 +41,7 @@ class Carousel {
     }
     nextSlide() {
         const current = this.carouselInner.querySelector(".carousel-active");
-        const next = current.nextElementSibling || this.carouselInner.firstElementChild;
+        const next = current.nextElementSibling ?? this.carouselInner.firstElementChild;
         current.classList.remove("carousel-active");
         current.classList.add("carousel-inactive");
         next.classList.remove("carousel-inactive");
@@ -51,7 +51,7 @@ class Carousel {
     }
     previousSlide() {
         const current = this.carouselInner.querySelector(".carousel-active");
-        const prev = current.previousElementSibling || this.carouselInner.lastElementChild;
+        const prev = current.previousElementSibling ?? this.carouselInner.lastElementChild;
         current.classList.remove("carousel-active");
         current.classList.add("carousel-inactive");
         prev.classList.remove("carousel-inactive");
